@@ -1,0 +1,22 @@
+{
+    "name": "博盛科技外汇桥",
+    "description": "This is a demo for composer packagist",
+    "type": "library",
+    "license": "Tom",
+    "authors": [
+        {
+            "name": "Tom",
+            "email": "513380450@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "ixudra/curl": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "BFX\\":"src/BFX/"
+        }
+    }
+}
